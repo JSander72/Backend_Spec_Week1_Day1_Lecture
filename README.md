@@ -16,6 +16,8 @@ Lists are ordered collections of items, allowing for sequential storage and retr
 ```python
 # Example of a list in the library
 fiction_books = ["Dune", "1984", "Brave New World", "Neuromancer"]
+
+fiction[0] #output "Dune"
 ```
 
 ##### Dictionaries:
@@ -29,12 +31,18 @@ book_locations = {
     "Brave New World": "Fiction Section, Shelf 3",
     "Neuromancer": "Fiction Section, Shelf 4"
 }
+book locations["1984"] #Output Fiction Section Shelf 2
 ```
 
 ##### Linked Lists:
-Are products of OOP constisting of a Node Class, and a List Class. Node objects carry a value or "data", and also have an attribute "next" which points to the next node in the chain. You build your list by starting with a Head node and continually adding the next node
+Are products of OOP constisting of a Node Class, and a List Class. Node objects carry a value or "data", and also have an attribute "next" which points to the next node in the chain. You build your list by starting with a Head node and continually adding the next node. 
+
+In Python, a node is a fundamental building block for data structures like linked lists, trees, and graphs. It represents a single element in these structures and typically contains: 
+Data: The value stored in the node.
+Reference(s): Pointers to other nodes in the structure (e.g., next node in a linked list, children nodes in a tree).
 
 ![Linked List](https://media.geeksforgeeks.org/wp-content/uploads/20220829110944/LLdrawio.png)
+
 
 ```python
 # Example of a linked list in the library
