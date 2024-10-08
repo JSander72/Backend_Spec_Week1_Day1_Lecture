@@ -106,6 +106,9 @@ print(treasures[1])  # Accessing the second stone
 
 **Removing Elements**: 
 .remove() is also Linear, becuase once the item is removed, the other items have to slide over to fill in the gaps.
+
+.pop() is constant, because removing from the back of the list I dont have to reorder my items or elements
+
 **Sorting Elements**: 
 .sort(), is based off of the Timsort algorith which is O(n logn)
 
